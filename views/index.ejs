@@ -1,0 +1,38 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+      <meta charset="utf-8">
+      <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+      <link rel="stylesheet" type="text/css" href="/public/css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <link rel="icon" type="image/png" href="/public/image/297424537277211.png">
+      <title>Docx-auto-uploader</title>
+  </head>             
+  <body>   
+    <p class="titles">RICARDO AUTO UPLOAD !!</p>
+    <iframe width="100" height="100" src="https://www.youtube-nocookie.com/embed/Bh5nCudGHNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="center" allowfullscreen></iframe>
+    <div id="timer">
+        <h4>RICARDO se chuc tet ban sau: </h4>
+          <table>
+            <td><span id="days"></span></br>ngày</td>
+            <td><span id="hours"></span></br>giờ</td>
+            <td><span id="minutes"></span></br>phút</td>
+            <td><span id="seconds"></span></br>giây</td>
+          </table>
+          <div id="progressBar"></div>
+          <script type="text/javascript">
+            var dl = <%- JSON.stringify(crDeadline) %> 
+           </script>
+          <script type="text/javascript" src="/public/js/clock.js"></script>
+    </div>
+    <div>
+      <img src="public/image/download.jpeg">
+    </div>
+    <img src="public/image/300840093179211.png" class="left" >
+    <img src="public/image/291092090060211.png" class="right" >
+    <div>
+      <form id="thongdz" method="GET" action="/success">
+      </form>
+    </div>
+  </body> 
+</html> 

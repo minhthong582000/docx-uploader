@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deadline</title>
+</head>
+<body>
+    <h1>Choose your deadline !</h1>
+    <form action="/deadline" method="POST">
+        <div>
+          <label for="deadline" >
+            Choose your deadline
+          </label>
+          <input name="deadline" type="datetime-local" required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <h4>Deadlines: </h4>
+        <ul>
+            <% dl.forEach(function (item) { %>
+            <li>
+                <%= item.deadline %>
+            </li>
+            <% }); %>
+        </ul>
+</body>
+</html>

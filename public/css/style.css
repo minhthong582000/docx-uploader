@@ -1,0 +1,55 @@
+body {
+  background: #f5f5f5;color: #ffffff;
+}
+#timer {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  
+}
+#timer span {
+  font-size: 60px;
+  margin: 0 3px 0 15px;
+}
+#timer span:first-child {
+  margin-left: 0;
+}
+div#timer {width:630px; padding: 60px 70px; background-image: url("/public/image/download.jpeg");background-size: 580px 400px;; color:#ffffff; font-family:Arial, sans-serif;margin:auto; min-height:350px;position: relative;top: 110px;box-sizing: border-box;border-radius: 20px;}
+h4 {font-size: 22px;margin-bottom:20px;font-weight: normal;text-transform:uppercase;}
+td{letter-spacing: 5px; text-transform:uppercase;padding: 10px;background: #1f253d;text-align: center;min-width: 100px;}
+
+#myProgress {
+  width: 100%;
+  background-color: white;
+  border-radius: 45px;
+  margin-top: 25px;
+}
+
+#myBar {
+  width: 1%;
+  height: 20px;
+  background-color: #3c3d41;
+  border-radius: 45px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+.left {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.right {
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+
+.titles { 
+  text-align: center; 
+  font-size: 40px; 
+  font-family: Arial, sans-serif;
+  color: black;
+} 
